@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutella Umfrage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wie isst du Nutella?</h1>
+        <img src="nutella.jpg" alt="Nutella" class="nutella-img">
+        <form id="voteForm">
+            <label>
+                <input type="radio" name="vote" value="mitButter"> Mit Butter
+            </label>
+            <label>
+                <input type="radio" name="vote" value="ohneButter"> Ohne Butter
+            </label>
+            <button type="submit">Abstimmen</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
